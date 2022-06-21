@@ -3,7 +3,7 @@ import HeaderHero from "./HeaderHero"
 
 function HeaderBanner() {
   return (
-     <Box height="100vh">
+     <Box sx={{height: {md: "500px", xs: "500px"}}}>
        <HeaderHero />
     </Box>
   );
