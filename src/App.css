@@ -103,6 +103,12 @@ body {
   opacity: 0;
 }
 
+.heroImage {
+   max-width: 500px;
+   height: 500px;
+   width: 100%;
+}
+
 @keyframes move-text {
   0% {
     bottom: -0.2em;
@@ -123,6 +129,7 @@ body {
   transform: scale(1, 1);
   position: relative;
   transition: 0.3s all ease-in-out;
+  cursor: pointer;
   cursor: pointer;
   margin-top: 10px;
   border-radius: 5px;
@@ -266,8 +273,13 @@ article {
     animation-delay: 1.5s
 }
 
+.testimonial {
+    width: 1000px;
+    height: 600px;
+}
+
 @media only screen and (max-width: 768px) {
-  .HeroImage {
+  .heroImage {
     display: none;
   }
 
@@ -290,5 +302,11 @@ article {
   .ProjectPics {
     height: 100%;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+.testimonial {
+    width: 800px;
   }
 }

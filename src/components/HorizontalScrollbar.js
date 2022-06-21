@@ -1,14 +1,15 @@
-import { useContext } from "react";
+import React from "react";
 import { Box, Typography } from "@mui/material";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 
 import Project from "./Project";
+import Testimonial from "./Testimonial"
 
 import LeftArrowImage from "../assets/images/left arrow.png";
 import RightArrowImage from "../assets/images/right arrow .png";
 
 const LeftArrow = () => {
-  const { scrollPrev } = useContext(VisibilityContext);
+  const { scrollPrev } = React.useContext(VisibilityContext);
 
   return (
     <Typography onClick={() => scrollPrev()} px={2}>
@@ -18,7 +19,7 @@ const LeftArrow = () => {
 };
 
 const RightArrow = () => {
-  const { scrollNext } = useContext(VisibilityContext);
+  const { scrollNext } = React.useContext(VisibilityContext);
 
   return (
     <Typography onClick={() => scrollNext()} px={2}>
@@ -27,7 +28,7 @@ const RightArrow = () => {
   );
 };
 
-function HorizontalScrollbar({ items }) {
+function HorizontalScrollbar({ items, test }) {
   return (
     <Box mt={4} sx={{ display: { md: "block", xs: "none" } }}>
       <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
@@ -37,7 +38,7 @@ function HorizontalScrollbar({ items }) {
             title={item.id}
             key={item.id}
           >
-            <Project item={item} />
+            {test ? <Testimonial item={item} /> :  <Project item={item} />}
           </Box>
         ))}
       </ScrollMenu>

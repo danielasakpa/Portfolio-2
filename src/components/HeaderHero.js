@@ -1,5 +1,5 @@
 import { Stack, Typography } from "@mui/material";
-import HeroImage from "../assets/images/HeroImage.png";
+import HeroImage from "../assets/images/Typing.gif";
 import AnimatedText from "../components/AnimatedText";
 
 
@@ -37,10 +37,9 @@ function HeaderHero() {
         <AnimatedText role="header" texts={"collaborations"} /> <br />
       </Typography>
       <img
-        className="HeroImage"
+        className="heroImage"
         src={HeroImage}
         alt="HeroImage"
-        style={{ weight: "500px", height: "500px" }}
       />
     </Stack>
   );

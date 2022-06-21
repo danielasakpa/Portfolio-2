@@ -1,9 +1,21 @@
+import {useEffect} from "react"
 import { projectItem } from "../assets/projectItem";
 import { Box, Stack, Typography } from "@mui/material";
 import HorizontalScrollbar from "./HorizontalScrollbar";
 import Project from "./Project";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Projects = () => {
+    
+useEffect(() => {
+    AOS.init({
+    duration : 2000
+   });
+    AOS.refresh();
+  }, []);
+    
   return (
     <Box>
       <Typography
@@ -32,6 +44,8 @@ const Projects = () => {
               itemId={item.id} // NOTE: itemId is required for track items
               title={item.id}
               key={item.id}
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
             >
               <Typography variant="h4" pb={4} textAlign="left" mt={7}>
                 01 Example
