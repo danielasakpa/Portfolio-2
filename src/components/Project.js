@@ -9,7 +9,7 @@ const Project = () => {
         <Box className="project-detail-hover">
           <Typography
             className="project-text"
-            sx={{ fontSize: { md: "20px", xs: "10px" } }}
+            sx={{ fontSize: { md: "20px", xs: "10px" }, fontFamily: "Neue Haas Grotesk Display Pro", }}
             mb={5}
           >
             lets users write blog entries once they sign up with an

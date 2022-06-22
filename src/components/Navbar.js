@@ -16,7 +16,7 @@ function Navbar() {
       sx={{ py: 3 }}
     >
       <Link to="/">
-        <Typography variant="h6" sx={{ fontSize: { lg: "35px", xs: "20px" } }}>
+        <Typography variant="h6" sx={{ fontSize: { lg: "35px", xs: "20px" }, fontFamily: "Neue Haas Grotesk Display Pro" }}>
           Daniel Asakpa
         </Typography>
       </Link>

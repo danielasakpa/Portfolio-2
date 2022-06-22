@@ -29,6 +29,7 @@ const About = () => {
             variant="h5"
             sx={{
               fontsize: { md: "150px", xs: "30px" },
+              fontFamily: "Neue Haas Grotesk Display Pro",
               textAlign: "left",
               fontWeight: "400"
             }}
@@ -47,6 +48,7 @@ const About = () => {
               variant="h5"
               sx={{
                 fontsize: { md: "150px", xs: "30px" },
+                fontFamily: "Neue Haas Grotesk Display Pro",
                 textAlign: "left",
                 fontWeight: "400"
               }}

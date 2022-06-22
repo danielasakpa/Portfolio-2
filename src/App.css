@@ -125,6 +125,15 @@ body {
   }
 }
 
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 .projectCard {
   transform: scale(1, 1);
   position: relative;
@@ -275,7 +284,7 @@ article {
 
 .testimonial {
     width: 1000px;
-    height: 600px;
+    height: 400px;
 }
 
 @media only screen and (max-width: 768px) {

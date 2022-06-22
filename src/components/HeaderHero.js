@@ -11,7 +11,7 @@ function HeaderHero() {
       display="flex"
       justifyContent="flex-end"
       sx={{
-        mt: { sm: 7, xs: 5 },
+        mt: { md: 7, sm: 5, xs: 2 },
         maxWidth: "1100px",
         flexDirection: { md: "row", xs: "column" },
         position: "relative"
@@ -22,8 +22,9 @@ function HeaderHero() {
         paragraph
         sx={{
           fontSize: { md: "60px", sm: "50px", xs: "25px" },
+          fontFamily: "Neue Haas Grotesk Display Pro",
           position: "absolute",
-          top: "90px",
+          top: {md: "90px", xs: "30px"},
           left: "15px",
           color: "#282828",
           fonteight: "bold",

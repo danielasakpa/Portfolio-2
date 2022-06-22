@@ -22,6 +22,7 @@ useEffect(() => {
         className="section-header"
         sx={{
           fontsize: { sm: "25px", xs: "10px" },
+          fontFamily: "Neue Haas Grotesk Display Pro",
           textAlign: { sm: "left", xs: "center" },
           fontWeight: "400"
         }}
