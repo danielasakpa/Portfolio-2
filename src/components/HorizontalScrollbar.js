@@ -2,8 +2,7 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 
-import Project from "./Project";
-import Testimonial from "./Testimonial"
+import Testimonial from "./Testimonial";
 
 import LeftArrowImage from "../assets/images/left arrow.png";
 import RightArrowImage from "../assets/images/right arrow .png";
@@ -33,12 +32,8 @@ function HorizontalScrollbar({ items, test }) {
     <Box mt={4} sx={{ display: { md: "block", xs: "none" } }}>
       <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
         {items.map((item) => (
-          <Box
-            itemId={item.id} 
-            title={item.id}
-            key={item.id}
-          >
-            {test ? <Testimonial item={item} /> :  <Project item={item} />}
+          <Box itemId={item.id} title={item.id} key={item.id}>
+            {test ? <Testimonial item={item} /> : ""}
           </Box>
         ))}
       </ScrollMenu>

@@ -1,31 +1,20 @@
 export const projectItem = [
     {
-        imageUrl: '../assets/images/Rectangle 3.png',
-        id: "1288213e218912e12"
+        imageUrl: require('./images/blog-app.png'),
+        id: "1288213e218912e12",
+        projectNum: "01 Blog App",
+        discription: `Aboutlets users write blog entries once they sign up with an account,After the user registers, he/she can go to the homepage and login with his/her credentials. The navigation bar will dynamically show different items depending on the user being logged in or ou`
     },
     {
-        imageUrl: '../assets/images/Rectangle 3.png',
-        id: "1288213e2189tutrf12e12"
+        imageUrl: require('./images/portfolio.png'),
+        id: "1288213e2189tudvfdvtrf12e12",
+            projectNum: "02 Portfolio",
+        discription: `Aboutlets users write blog entries once they sign up with an account,After the user registers, he/she can go to the homepage and login with his/her credentials. The navigation bar will dynamically show different items depending on the user being logged in or ou`
     },
     {
-        imageUrl: '../assets/images/Rectangle 3.png',
-        id: "1288213e21dgdgdxgdx8912e12"
+        imageUrl: require('./images/Rectangle3.png'),
+        id: "1288213e2189tutrefgerfgf12e12",
+        projectNum: "03 Project",
+        discription: `Aboutlets users write blog entries once they sign up with an account,After the user registers, he/she can go to the homepage and login with his/her credentials. The navigation bar will dynamically show different items depending on the user being logged in or ou`
     },
-    {
-        imageUrl: '../assets/images/Rectangle 3.png',
-        id: "12882xvxbb xb13e218912e12"
-    },
-    {
-        imageUrl: '../assets/images/Rectangle 3.png',
-        id: "1288213exdhdhbd218912e12"
-    },
-    {
-        imageUrl: '../assets/images/Rectangle 3.png',
-        id: "1288213ecnfcnfcgngbdbdbnfd218912e12"
-    },
-    {
-        imageUrl: '../assets/images/Rectangle 3.png',
-        id: "128cncnjiljilij8213e218912e128213e218912e12"
-    },
-
 ]

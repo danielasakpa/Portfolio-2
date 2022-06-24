@@ -1,6 +1,7 @@
 import HeaderBanner from "../components/HeaderBanner"
 import Projects from "../components/Projects"
 import About from "../components/About"
+import Contact from "../components/Contact"
 import Testimonials from "../components/Testimonials"
 import MovingText from "../components/Moving-text"
 
@@ -13,6 +14,7 @@ function Home() {
        <About/>
        <MovingText />
        <Testimonials />
+       <Contact />
     </main>
   );
 }

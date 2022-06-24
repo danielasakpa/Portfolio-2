@@ -1,11 +1,10 @@
-import {Box, Typography} from "@mui/material"
+import { Box, Stack, Typography } from "@mui/material";
 import HorizontalScrollbar from "./HorizontalScrollbar";
 import { TestimonialItem } from "../assets/TestimonialItem";
 
-
 const Testimonials = () => {
-    return (
-      <Box sx={{ mt: { md: 6, xs: 3}}}>
+  return (
+    <Box sx={{ mt: { md: 6, xs: 3 } }}>
       <Typography
         className="section-header"
         sx={{
@@ -18,9 +17,53 @@ const Testimonials = () => {
       >
         What People Say
       </Typography>
-        <HorizontalScrollbar test items={TestimonialItem}  />
+      <HorizontalScrollbar test items={TestimonialItem} />
+      <Box margin="0 auto" px={1} pt={3}>
+        {TestimonialItem.map((item, index) => (
+          <Stack
+            display="flex"
+            direction="column"
+            key={index}
+            backgroundColor="#FFF"
+            sx={{
+              width: "100%",
+              maxWidth: "700px",
+              height: "200px",
+              display: { md: "none", xs: "block", borderRadius: "5px" }
+            }}
+            my={2}
+            px={2}
+            pt={1}
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Typography
+              variant="h2"
+              textAlign="center"
+              sx={{
+                fontSize: "20px",
+                fontFamily: "Neue Haas Grotesk Display Pro"
+              }}
+            >
+              {item.text}
+            </Typography>
+            <Typography
+              variant="h6"
+              textAlign="center"
+              mt={3}
+              sx={{
+                fontSize: "15px",
+                fontFamily: "Neue Haas Grotesk Display Pro",
+                fontStyle: "italic"
+              }}
+            >
+              {item.name}
+            </Typography>
+          </Stack>
+        ))}
       </Box>
-    )
-}
+    </Box>
+  );
+};
 
 export default Testimonials;

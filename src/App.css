@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -10,16 +10,19 @@ body {
   background: var(--color-bg);
 }
 
+footer {
+    margin-top: 20px;
+    border-top: 3px solid var(--color-text);
+}
+
 .navbar a {
-  font-weight: bold;
-  font-family: var(--font-family);
-  color: var(--color-text);
-  text-decoration: none;
+  cursor: pointer;
 }
 
 .navbar-link a {
   text-decoration: none;
   color: var(--color-text);
+  cursor: pointer;
   font-size: 25px;
   padding-right: 15px;
   font-weight: 500;
@@ -141,7 +144,8 @@ body {
   cursor: pointer;
   cursor: pointer;
   margin-top: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
   margin-right: 30px;
   max-width: 370px;
   height: 558px;
@@ -163,9 +167,15 @@ body {
   font-family: var(--font-family);
   flex-direction: column;
   padding: 30px;
+  max-height: 557px;
+  height: 100%;
   justify-content: center;
   align-items: center;
-  bottom: 80px;
+  bottom: 1px;
+}
+
+.project-detail:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .project-detail-hover {
@@ -287,10 +297,27 @@ article {
     height: 400px;
 }
 
+.footer-icons a {
+    font-size: 20px;
+    color: var(--color-banner);
+    text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+    .footer-icons a {
+        margin-left: 3px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
   .heroImage {
     display: none;
   }
+    
+    .footer-logo {
+        display: none;
+    }
 
   .projectCard {
     margin-right: 0;
@@ -301,8 +328,9 @@ article {
 
   .project-detail {
     padding: 10px;
-    bottom: 100px;
+    bottom: 1px;
   }
+    
 
   .project-detail-hover {
     transform: translateY(40px);

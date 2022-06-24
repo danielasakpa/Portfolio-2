@@ -11,7 +11,7 @@ import { SiMaterialui, SiGithub, SiExpress } from "react-icons/si";
 
 const About = () => {
   return (
-    <Box sx={{ mt: { md: 15, xs: 10 } }}>
+    <Box id="about" sx={{ mt: { md: 15, xs: 10 } }}>
       <Typography
         className="section-header"
         sx={{

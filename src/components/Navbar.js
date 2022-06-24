@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Stack, Typography } from "@mui/material";
+import { Stack } from "@mui/material";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import Logo from "../assets/images/logo.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -15,21 +16,55 @@ function Navbar() {
       justifyContent="space-between"
       sx={{ py: 3 }}
     >
-      <Link to="/">
-        <Typography variant="h6" sx={{ fontSize: { lg: "35px", xs: "20px" }, fontFamily: "Neue Haas Grotesk Display Pro" }}>
-          Daniel Asakpa
-        </Typography>
-      </Link>
+      <a href="/">
+        <img src={Logo} alt="logo" style={{ width: "80px" }} />
+      </a>
       <Stack
         className="navbar-link"
         sx={{ display: { sm: "block", xs: "none" } }}
         direction="row"
         display="flex"
       >
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#blog">Blog</a>
+        <Link
+          activeClass="active"
+          to="work"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Work
+        </Link>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          About
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Contact
+        </Link>
+        <Link
+          activeClass="active"
+          to="blog"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Blog
+        </Link>
       </Stack>
 
       <Stack
@@ -53,16 +88,52 @@ function Navbar() {
           <div className="navbar-menu_container scale-up-center">
             <div className="navbar-menu_container-links">
               <p>
-                <a href="#work">Work</a>
+                <Link
+                  activeClass="active"
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Work
+                </Link>
               </p>
               <p>
-                <a href="#about">About</a>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  About
+                </Link>
               </p>
               <p>
-                <a href="#contact">Contact</a>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </p>
               <p>
-                <a href="#blog">Blog</a>
+                <Link
+                  activeClass="active"
+                  to="blog"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Blog
+                </Link>
               </p>
             </div>
           </div>

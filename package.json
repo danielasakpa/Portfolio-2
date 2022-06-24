@@ -14,9 +14,11 @@
     "react-dom": "^18.0.0",
     "react-horizontal-scrolling-menu": "^3.0.1",
     "react-icons": "^4.4.0",
+    "react-indiana-drag-scroll": "^2.2.0",
     "react-loader-spinner": "^5.1.5",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
