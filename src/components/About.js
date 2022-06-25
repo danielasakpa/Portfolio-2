@@ -34,12 +34,19 @@ const About = () => {
               fontWeight: "400"
             }}
           >
-            I'm a product designer working on various <br /> projects on a wide
-            range of clients. <br /> My skillset lies on creating branding
-            packages <br /> & websites to deliver the full online <br />{" "}
-            experience for new and also veteran businesses. <br /> You can often
-            find me creating videos about <br /> design over on YouTube, or
-            sharing <br /> my thoughts on my podcast, Dialogue With Designers
+           I am self-taught passionate FrontEnd React developer, <br/> currently working as a freelance developer. <br /> I enjoy creating things that live on the internet. <br /> My interest in web development started back in 2020.
+          </Typography>
+          <Typography
+            mt={2}
+            variant="h5"
+            sx={{
+              fontsize: { md: "150px", xs: "30px" },
+              fontFamily: "Neue Haas Grotesk Display Pro",
+              textAlign: "left",
+              fontWeight: "400"
+            }}
+          >
+           My main focus these days is building accessible, <br/> inclusive products and digital experiences <br/> at Upstatement for a variety of clients.
           </Typography>
         </Grid>
         <Grid item xs={12} sx={{mt: {md: 0, xs: 6}}} md={5}>

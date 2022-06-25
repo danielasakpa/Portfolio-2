@@ -1,5 +1,7 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
-import ProjectPics from "../assets/images/Rectangle3.png";
+import { SiGithub } from "react-icons/si";
+import { IoMdOpen } from "react-icons/io";
+
 
 const Project = ({item}) => {
   return (
@@ -27,26 +29,26 @@ const Project = ({item}) => {
               sx={{
                 background: "#4E4E4E",
                 color: "#FFFFFF",
-                fontSize: "10px",
-                px: 1,
-                py: 2
+                fontSize: "30px",
+                borderRadius: "50%",
+                p: 3
               }}
               className="project-btn"
             >
-              View it Live
+              <IoMdOpen />
             </Button>
             <Button
               variant="contained"
               sx={{
                 background: "#4E4E4E",
                 color: "#FFFFFF",
-                fontSize: "10px",
-                px: 1,
-                py: 2
+                fontSize: "30px",
+                borderRadius: "50%",
+                p: 3
               }}
               className="project-btn"
             >
-              Code on Github
+              <SiGithub />
             </Button>
           </Stack>
         </Box>

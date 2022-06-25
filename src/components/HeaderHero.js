@@ -40,7 +40,8 @@ function HeaderHero() {
         <AnimatedText role="header" texts={"based in Accra, Ghana."} /> <br />
         <AnimatedText role="header" texts={"Available for freelance &"} /> <br />
         <AnimatedText role="header" texts={"collaborations"} /> <br />
-      </Typography>  
+      </Typography> 
+     <a href="https://drive.google.com/file/d/1EDAZVGaiRvDKXvqsIGjBOrq9ySvNE-fz/view" target="_blank" rel="noopener noreferrer">
       <Button
          variant="contained"
          sx={{
@@ -54,6 +55,7 @@ function HeaderHero() {
        >
         Resume
       </Button>
+     </a>
     </Stack>
       <img
         className="heroImage"

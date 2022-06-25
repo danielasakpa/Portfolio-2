@@ -40,7 +40,7 @@ const Footer = () => {
             columnSpacing={{ xs: 1}}
           >
             <Grid item xs={4}>
-              <a href="/">
+              <a href="https://twitter.com/oba_code" rel="noopener noreferrer" target="_blank">
                 <SiTwitter />
               </a>
             </Grid>
@@ -50,7 +50,7 @@ const Footer = () => {
               </a>
             </Grid>
             <Grid item xs={4}>
-              <a href="/">
+              <a href="https://github.com/danielasakpa" rel="noopener noreferrer" target="_blank">
                 <SiGithub />
               </a>
             </Grid>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Stack } from "@mui/material";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import Logo from "../assets/images/logo.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);

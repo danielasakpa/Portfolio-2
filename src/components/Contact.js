@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import Form from "./Form"
 
-const Contact = () => {
+const Contact = ({emailSent, setEmailSent}) => {
   return (
     <Box id="contact" sx={{ mt: { md: 15, xs: 10 } }}>
       <Typography
@@ -26,9 +26,8 @@ const Contact = () => {
               fontWeight: "400"
             }}
           >
-            Looking to start a new project or just want <br /> to say hi? Send
+            Do you have a question or just want <br /> to say hi? Send
             me an email and I’ll do my <br /> best to reply within 24 hrs!
-            <br />
           </Typography>
           <Typography 
               mt={2}
@@ -45,7 +44,7 @@ const Contact = () => {
             </Typography>
         </Grid>
         <Grid item xs={12} sx={{ mt: { md: 0, xs: 6 } }} md={6}>
-           <Form />
+           <Form emailSent={emailSent} setEmailSent={setEmailSent} />
         </Grid>
       </Grid>
     </Box>
