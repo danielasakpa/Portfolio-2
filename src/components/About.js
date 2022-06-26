@@ -21,7 +21,7 @@ const About = () => {
         }}
         variant="h4"
       >
-        About
+        About Me
       </Typography>
       <Grid container mt={7} spacing={3}>
         <Grid item xs={12} md={7}>

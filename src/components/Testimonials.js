@@ -28,12 +28,12 @@ const Testimonials = () => {
             sx={{
               width: "100%",
               maxWidth: "700px",
-              height: "200px",
+              height: "auto",
               display: { md: "none", xs: "block", borderRadius: "5px" }
             }}
             my={2}
             px={2}
-            pt={1}
+            py={1}
             justifyContent="center"
             alignItems="center"
           >

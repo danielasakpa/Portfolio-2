@@ -27,7 +27,8 @@ useEffect(() => {
         }}
         variant="h4"
       >
-        Projects
+        Some Things I’ve Built
+
       </Typography>
       <Box sx={{ display: { md: "block", xs: "block" } }}>
         <Stack

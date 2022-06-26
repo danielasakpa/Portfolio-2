@@ -41,7 +41,7 @@ function HeaderHero() {
         <AnimatedText role="header" texts={"Available for freelance &"} /> <br />
         <AnimatedText role="header" texts={"collaborations"} /> <br />
       </Typography> 
-     <a href="https://drive.google.com/file/d/1EDAZVGaiRvDKXvqsIGjBOrq9ySvNE-fz/view" target="_blank" rel="noopener noreferrer">
+     <a href="https://drive.google.com/file/d/1EDAZVGaiRvDKXvqsIGjBOrq9ySvNE-fz/view" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
       <Button
          variant="contained"
          sx={{

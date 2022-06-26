@@ -11,7 +11,6 @@ function Home() {
   const [emailSent, setEmailSent] = useState("");
 
   useEffect(() => {
-    console.log(emailSent);
 
     if (!emailSent) {
       return;
@@ -27,15 +26,19 @@ function Home() {
   }, [emailSent]);
 
   return (
-    <main>
-      <HeaderBanner />
-      <MovingText />
-      <Projects />
-      <About />
-      <MovingText />
-      <Testimonials />
-      <Contact emailSent={emailSent} setEmailSent={setEmailSent} />
-    </main>
+    <>
+      <header>
+        <HeaderBanner />
+      </header>
+      <main>
+        <MovingText />
+        <Projects />
+        <About />
+        <MovingText />
+        <Testimonials />
+        <Contact emailSent={emailSent} setEmailSent={setEmailSent} />
+      </main>
+    </>
   );
 }
 

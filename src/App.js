@@ -11,7 +11,7 @@ function App() {
   return (
     <Box margin="0 auto">
        <Router>
-          <Container Width="1440">
+          <Container width="1440">
             <Navbar />
              <Routes>
                <Route path="/" element={<Home />} />
