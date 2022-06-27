@@ -1,4 +1,4 @@
-# Personal portfolio
+# Personal portfolio - v2.0
 
 
 My personal website. A simple, easily modifiable, statically-exportable React, Jamstack application. Built using modern javascript, based on create-react-app with React-Router, react-scroll, aos and many other useful technologies.
@@ -8,15 +8,36 @@ My personal website. A simple, easily modifiable, statically-exportable React, J
 
 [View it live](https://danielasakpa.netlify.app/)
 
+## Screenshots
+![Example screenshot](./public/images/portfolio.png)
+
+<h3 align="center">
+    🔹
+    <a href="https://github.com/danielasakpa/Portfolio-2/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/danielasakpa/Portfolio-2/issues">Request Feature</a>
+</h3>
 
 ## Tech Stack
+My personal portfolio [danielasakpa.com](https://danielasakpa.netlify.app/) which features some of my github projects as well as my resume and technical skills.
+
+This project was built using these technologies.
 
 
-* React
-* Material ui
-* Responsive design
+- React
+- Material ui
+- CSS3
+- Responsive design
 
-## Installation
+## Features
+
+**📖 Multi-Page Layout**
+
+**🎨 Styled with Material ui and Css with easy to customize colors**
+
+**📱 Fully Responsive**
+
+## 🛠 Installation and Setup Instructions
 
 Install my-project with npm
 
@@ -24,9 +45,10 @@ Install my-project with npm
   #install app
   npm install
 
-  #Start the app
+  #Runs the app in the development mode.
   npm start
 ```
+Open http://localhost:3000 to view it in the browser.
     
 ## Environment Variables
 
@@ -46,11 +68,6 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-
-## Acknowledgements
-
- - [Arnau-Ros](https://www.arnau.design/)
- 
 
 ## Feedback
 
