@@ -30,10 +30,10 @@ const Form = ({ emailSent, setEmailSent }) => {
       
     emailjs
       .sendForm(
-        "process.env.SERVICE_ID",
+        process.env.SERVICE_ID,
         "contact_form",
         form.current,
-        "process.env.PUBLIC_KEY"
+        process.env.PUBLIC_KEY
       )
       .then(
         (result) => {
