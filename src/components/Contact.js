@@ -14,7 +14,7 @@ const Contact = ({ emailSent, setEmailSent }) => {
       >
         Say Hello
       </Typography>
-      <Grid container mt={7} spacing={3}>
+      <Grid container mt={5} spacing={3}>
         <Grid item xs={12} md={6}>
           <Typography
             variant="h5"

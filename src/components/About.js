@@ -22,14 +22,15 @@ const About = () => {
       >
         About Me
       </Typography>
-      <Grid container mt={7} spacing={6}>
+      <Grid container mt={5} spacing={3}>
         <Grid item xs={12} md={7}>
           <Typography
             variant="h5"
             sx={{
               fontsize: { sm: "150px", xs: "30px" },
               fontFamily: "Neue Haas Grotesk Display Pro",
-              textAlign: "left"
+              textAlign: "left",
+              pr: {md: 1, xs: 0}
             }}
           >
             I am self-taught passionate FrontEnd React developer, currently

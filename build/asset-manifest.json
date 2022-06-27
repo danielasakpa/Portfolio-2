@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f5aea3d.css",
-    "main.js": "/static/js/main.ab1e17bb.js",
+    "main.css": "/static/css/main.ea6e3255.css",
+    "main.js": "/static/js/main.809b8238.js",
     "static/media/Typing.gif": "/static/media/Typing.eba123509fc8dd70d79a.gif",
     "static/media/NeueHaasDisplayRoman.eot": "/static/media/NeueHaasDisplayRoman.913deccbdd9bb49b59e1.eot",
     "static/media/NeueHaasDisplayRoman.ttf": "/static/media/NeueHaasDisplayRoman.a4c6f6d97398d8f9a96c.ttf",
@@ -12,11 +12,11 @@
     "static/media/NeueHaasDisplayRoman.woff2": "/static/media/NeueHaasDisplayRoman.47a0032b8b7cfccd4242.woff2",
     "static/media/chat-app.png": "/static/media/chat-app.99a6e1284a367e2b6dc3.png",
     "index.html": "/index.html",
-    "main.3f5aea3d.css.map": "/static/css/main.3f5aea3d.css.map",
-    "main.ab1e17bb.js.map": "/static/js/main.ab1e17bb.js.map"
+    "main.ea6e3255.css.map": "/static/css/main.ea6e3255.css.map",
+    "main.809b8238.js.map": "/static/js/main.809b8238.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f5aea3d.css",
-    "static/js/main.ab1e17bb.js"
+    "static/css/main.ea6e3255.css",
+    "static/js/main.809b8238.js"
   ]
 }
