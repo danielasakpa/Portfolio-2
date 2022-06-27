@@ -27,6 +27,7 @@ This project was built using these technologies.
 - React
 - Material ui
 - CSS3
+- Email js
 - Responsive design
 
 ## Features
