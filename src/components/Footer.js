@@ -33,29 +33,34 @@ const Footer = () => {
           </Stack>
         </Grid>
         <Grid item xs={12} sm={2}>
-          <Grid
+          <Stack
             className="footer-icons"
-            container
-            spacing={1}
-            sx={{ mt: { xs: 2, sm: 0 }, mx: {sm: 0, xs: 4}}}
-            columnSpacing={{ xs: 1}}
+            justifyContent="center"
+            alignItems="center"
+            sx={{ flexDirection: "row", pt: { sm: 0, xs: 1 } }}
+            display="flex"
+            gap={5}
           >
-            <Grid item xs={4}>
-              <a href="https://twitter.com/oba_code" rel="noopener noreferrer" target="_blank">
-                <SiTwitter />
-              </a>
-            </Grid>
-            <Grid item xs={4}>
-              <a href="/">
-                <SiLinkedin />
-              </a>
-            </Grid>
-            <Grid item xs={4}>
-              <a href="https://github.com/danielasakpa" rel="noopener noreferrer" target="_blank">
-                <SiGithub />
-              </a>
-            </Grid>
-          </Grid>
+            <a
+              href="https://twitter.com/oba_code"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <SiTwitter />
+            </a>
+
+            <a href="/">
+              <SiLinkedin />
+            </a>
+
+            <a
+              href="https://github.com/danielasakpa"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <SiGithub />
+            </a>
+          </Stack>
         </Grid>
       </Grid>
     </footer>

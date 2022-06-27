@@ -345,6 +345,10 @@ article {
     height: 100%;
     width: 100%;
   }
+    
+  .about-icon {
+  font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
