@@ -29,14 +29,15 @@ const Footer = () => {
                 style={{ width: "80px" }}
               />
             </Link>
-            <Typography>&copy2021DanielAsakap</Typography>
+            <Typography>&copy;2021DanielAsakap</Typography>
           </Stack>
         </Grid>
         <Grid item xs={12} sm={2}>
           <Grid
             className="footer-icons"
             container
-            sx={{ mt: { xs: 2, sm: 0 } }}
+            spacing={1}
+            sx={{ mt: { xs: 2, sm: 0 }, mx: {sm: 0, xs: 4}}}
             columnSpacing={{ xs: 1}}
           >
             <Grid item xs={4}>

@@ -40,7 +40,7 @@ const Contact = ({emailSent, setEmailSent}) => {
             }}
               >
               If contact forms aren’t your thing... send me <br /> an email at
-            hello@arnau.design
+            danielasakpa@gmail.com
             </Typography>
         </Grid>
         <Grid item xs={12} sx={{ mt: { md: 0, xs: 6 } }} md={6}>

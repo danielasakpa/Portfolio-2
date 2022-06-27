@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import {
   Box,
@@ -10,6 +10,11 @@ import {
 } from "@mui/material";
 
 const Form = ({ emailSent, setEmailSent }) => {
+
+  const[name, setName] = useState("")
+  const[email, setEmail] = useState("")
+  const[message, setMessage] = useState("")
+    
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,6 +22,10 @@ const Form = ({ emailSent, setEmailSent }) => {
 
     setEmailSent("loading");
 
+    setName("");
+    setEmail("");
+    setMessage("");
+      
     emailjs
       .sendForm(
         "service_k9th3hd",
@@ -45,7 +54,8 @@ const Form = ({ emailSent, setEmailSent }) => {
             fullWidth
             id="name"
             label="Name"
-            autoFocus
+            onChange={event => setName(event.target.value)}
+            value={name}
           />
         </Grid>
         <Grid item xs={12}>
@@ -56,6 +66,8 @@ const Form = ({ emailSent, setEmailSent }) => {
             label="Email Address"
             name="user_email"
             autoComplete="email"
+            onChange={event => setEmail(event.target.value)}
+            value={email}
           />
         </Grid>
         <Grid item xs={12}>
@@ -69,13 +81,15 @@ const Form = ({ emailSent, setEmailSent }) => {
             type="message"
             id="message"
             autoComplete="message"
+            onChange={event => setMessage(event.target.value)}
+            value={message}
           />
         </Grid>
       </Grid>
       <Button
         type="submit"
         variant="outlined"
-        sx={{ mt: 3, mb: 2, border: "1px solid #9F9F9F", color: "#9F9F9F" }}
+        sx={{ mt: 3, mb: 2, border: "1px solid #9F9F9F", color: "#FFFFFF", background: "#4E4E4E" }}
       >
         send
       </Button>

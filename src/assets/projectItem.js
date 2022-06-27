@@ -12,7 +12,7 @@ export const projectItem = [
         id: "1288213e2189tudvfdvtrf12e12",
             projectNum: "02 Portfolio",
         discription: `My personal portfolio website built to host my projects and display my skills`,
-        liveSite: "/",
+        liveSite: "https://danielasakpa.netlify.app/",
         github: "https://github.com/danielasakpa/Portfolio-2"
     },
     {
