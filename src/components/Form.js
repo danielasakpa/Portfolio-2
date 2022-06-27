@@ -9,6 +9,8 @@ import {
   Backdrop
 } from "@mui/material";
 
+require("dotenv").config();
+
 const Form = ({ emailSent, setEmailSent }) => {
 
   const[name, setName] = useState("")
@@ -28,10 +30,10 @@ const Form = ({ emailSent, setEmailSent }) => {
       
     emailjs
       .sendForm(
-        "service_k9th3hd",
+        "process.env.SERVICE_ID",
         "contact_form",
         form.current,
-        "YxU9ucgaEXCDwBI0X"
+        "process.env.PUBLIC_KEY"
       )
       .then(
         (result) => {
