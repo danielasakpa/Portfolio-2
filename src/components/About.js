@@ -16,45 +16,46 @@ const About = () => {
         className="section-header"
         sx={{
           fontsize: { sm: "25px", xs: "10px" },
-          textAlign: { sm: "left", xs: "center" },
-          fontWeight: "400"
+          textAlign: { sm: "left", xs: "center" }
         }}
         variant="h4"
       >
         About Me
       </Typography>
-      <Grid container mt={7} spacing={3}>
+      <Grid container mt={7} spacing={6}>
         <Grid item xs={12} md={7}>
           <Typography
             variant="h5"
             sx={{
-              fontsize: { md: "150px", xs: "30px" },
+              fontsize: { sm: "150px", xs: "30px" },
               fontFamily: "Neue Haas Grotesk Display Pro",
-              textAlign: "left",
-              fontWeight: "400"
+              textAlign: "left"
             }}
           >
-           I am self-taught passionate FrontEnd React developer, <br/> currently working as a freelance developer. <br /> I enjoy creating things that live on the internet. <br /> My interest in web development started back in 2020.
+            I am self-taught passionate FrontEnd React developer, currently
+            working as a freelance developer. I enjoy creating things that live
+            on the internet. My interest in web development started back in
+            2020.
           </Typography>
           <Typography
             mt={2}
             variant="h5"
             sx={{
-              fontsize: { md: "150px", xs: "30px" },
+              fontsize: { sm: "150px", xs: "30px" },
               fontFamily: "Neue Haas Grotesk Display Pro",
-              textAlign: "left",
-              fontWeight: "400"
+              textAlign: "left"
             }}
           >
-           My main focus these days is building accessible, <br/> inclusive products and digital experiences <br/> at Upstatement for a variety of clients.
+            My main focus these days is building accessible, inclusive products
+            and digital experiences at Upstatement for a variety of clients.
           </Typography>
         </Grid>
-        <Grid item xs={12} sx={{mt: {md: 0, xs: 6}}} md={5}>
+        <Grid item xs={12} sx={{ mt: { md: 0, xs: 6 } }} md={5}>
           <Stack display="flex" alignItems="start" gap={5}>
             <Typography
               variant="h5"
               sx={{
-                fontsize: { md: "150px", xs: "30px" },
+                fontsize: { sm: "150px", xs: "30px" },
                 fontFamily: "Neue Haas Grotesk Display Pro",
                 textAlign: "left",
                 fontWeight: "400"

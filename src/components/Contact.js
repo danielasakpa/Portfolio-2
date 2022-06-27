@@ -1,15 +1,14 @@
 import { Box, Grid, Typography } from "@mui/material";
-import Form from "./Form"
+import Form from "./Form";
 
-const Contact = ({emailSent, setEmailSent}) => {
+const Contact = ({ emailSent, setEmailSent }) => {
   return (
     <Box id="contact" sx={{ mt: { md: 15, xs: 10 } }}>
       <Typography
         className="section-header"
         sx={{
           fontsize: { sm: "25px", xs: "10px" },
-          textAlign: { sm: "left", xs: "center" },
-          fontWeight: "400"
+          textAlign: "left"
         }}
         variant="h4"
       >
@@ -20,31 +19,29 @@ const Contact = ({emailSent, setEmailSent}) => {
           <Typography
             variant="h5"
             sx={{
-              fontsize: { md: "150px", xs: "30px" },
+              fontsize: { sm: "150px", xs: "30px" },
               fontFamily: "Neue Haas Grotesk Display Pro",
-              textAlign: "left",
               fontWeight: "400"
             }}
           >
-            Do you have a question or just want <br /> to say hi? Send
-            me an email and I’ll do my <br /> best to reply within 24 hrs!
+            Do you have a question or just want to say hi? Send me an email and
+            I’ll do my best to reply within 24 hrs!
           </Typography>
-          <Typography 
-              mt={2}
-              variant="h5"
-              sx={{
-              fontsize: { md: "150px", xs: "30px" },
+          <Typography
+            mt={2}
+            variant="h5"
+            sx={{
+              fontsize: { sm: "150px", xs: "30px" },
               fontFamily: "Neue Haas Grotesk Display Pro",
-              textAlign: "left",
-              fontWeight: "400"
+              textAlign: "left"
             }}
-              >
-              If contact forms aren’t your thing... send me <br /> an email at
+          >
+            If contact forms aren’t your thing... send me an email at
             danielasakpa@gmail.com
-            </Typography>
+          </Typography>
         </Grid>
         <Grid item xs={12} sx={{ mt: { md: 0, xs: 6 } }} md={6}>
-           <Form emailSent={emailSent} setEmailSent={setEmailSent} />
+          <Form emailSent={emailSent} setEmailSent={setEmailSent} />
         </Grid>
       </Grid>
     </Box>

@@ -2,17 +2,18 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-family);
   background: var(--color-bg);
+  color: var(--color-text)
 }
 
 footer {
     margin-top: 20px;
-    border-top: 3px solid var(--color-text);
+    border-top: 1px solid var(--color-other);
 }
 
 .navbar a {
@@ -23,9 +24,8 @@ footer {
   text-decoration: none;
   color: var(--color-text);
   cursor: pointer;
-  font-size: 25px;
+  font-size: 20px;
   padding-right: 15px;
-  font-weight: 500;
   display: inline-block;
   position: relative;
 }
@@ -33,9 +33,9 @@ footer {
 .navbar-link a:after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 90%;
   transform: scaleX(0);
-  height: 2px;
+  height: 1px;
   bottom: 0;
   left: 0;
   background-color: var(--color-banner);
@@ -50,7 +50,6 @@ footer {
 
 .navbar-menu {
   margin-left: 1rem;
-
   display: none;
   position: relative;
 }
@@ -95,7 +94,7 @@ footer {
 .section-header {
   padding-bottom: 6px;
   margin-bottom: 20px;
-  border-bottom: 3px solid var(--color-text);
+  border-bottom: 1px solid var(--color-other);
 }
 
 
@@ -108,7 +107,7 @@ footer {
 
 .heroImage {
    max-width: 500px;
-   height: 500px;
+   height: 600px;
    width: 100%;
 }
 
@@ -316,9 +315,11 @@ article {
 
 
 @media only screen and (max-width: 768px) {
-  .heroImage {
-    display: none;
-  }
+    
+    .heroImage {
+       display:none;
+   }
+
     
     .footer-logo {
         display: none;

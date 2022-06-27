@@ -10,7 +10,7 @@ const Testimonials = () => {
         sx={{
           fontsize: { sm: "25px", xs: "10px" },
           fontFamily: "Neue Haas Grotesk Display Pro",
-          textAlign: { sm: "left", xs: "center" },
+          textAlign: "left",
           fontWeight: "400"
         }}
         variant="h4"
@@ -24,22 +24,17 @@ const Testimonials = () => {
             display="flex"
             direction="column"
             key={index}
-            backgroundColor="#FFF"
             sx={{
               width: "100%",
-              maxWidth: "700px",
-              height: "auto",
               display: { md: "none", xs: "block", borderRadius: "5px" }
             }}
             my={2}
-            px={2}
             py={1}
             justifyContent="center"
-            alignItems="center"
           >
             <Typography
               variant="h2"
-              textAlign="center"
+              textAlign="left"
               sx={{
                 fontSize: "20px",
                 fontFamily: "Neue Haas Grotesk Display Pro"
@@ -49,7 +44,7 @@ const Testimonials = () => {
             </Typography>
             <Typography
               variant="h6"
-              textAlign="center"
+              textAlign="left"
               mt={3}
               sx={{
                 fontSize: "15px",

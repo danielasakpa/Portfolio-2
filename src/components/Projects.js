@@ -22,8 +22,7 @@ useEffect(() => {
         sx={{
           fontsize: { sm: "25px", xs: "10px" },
           fontFamily: "Neue Haas Grotesk Display Pro",
-          textAlign: { sm: "left", xs: "center" },
-          fontWeight: "400"
+          textAlign: "left",
         }}
         variant="h4"
       >
@@ -46,7 +45,7 @@ useEffect(() => {
               key={item.id}
               
             >
-              <Typography variant="h4" pb={4} textAlign="left" mt={7}>
+              <Typography variant="h5" pb={4} textAlign="left" mt={7}>
                 {item.projectNum}
               </Typography>
               <Project item={item} />
