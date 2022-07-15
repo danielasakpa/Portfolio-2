@@ -89,7 +89,7 @@ const Form = ({ emailSent, setEmailSent }) => {
       <Button
         type="submit"
         variant="contained"
-        sx={{ mt: 3, mb: 2, border: "1px solid #9F9F9F", color: "#FFFFFF", background: "#4E4E4E" }}
+        sx={{ mt: 3, mb: 2, boxShadow: 0, border: "1px solid #9F9F9F", color: "#FFFFFF", background: "#4E4E4E" }}
       >
         send
       </Button>

@@ -2,6 +2,8 @@ import { Stack, Button, Typography } from "@mui/material";
 import HeroImage from "../assets/images/Typing.gif";
 import AnimatedText from "../components/AnimatedText";
 
+import Resume from "../assets/MyResume.pdf"
+
 function HeaderHero() {
   return (
     <Stack
@@ -42,7 +44,7 @@ function HeaderHero() {
           <AnimatedText role="header" texts={"collaborations "} /> <br />
         </Typography>
         <a
-          href="https://drive.google.com/file/d/1EDAZVGaiRvDKXvqsIGjBOrq9ySvNE-fz/view"
+          href={Resume}
           target="_blank"
           rel="noopener noreferrer"
           style={{ textDecoration: "none" }}

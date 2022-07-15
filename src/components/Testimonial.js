@@ -8,12 +8,13 @@ const Testimonial = ({ item }) => {
       px={7}
       justifyContent="center"
       alignItems="center"
-      mt={8}
+      mt={6}
       py={1}
     >
       <Typography
         variant="h2"
         textAlign="center"
+        mt={12}
         sx={{ fontSize: "30px", fontFamily: "Neue Haas Grotesk Display Pro" }}
       >
         {item.text}

@@ -23,4 +23,12 @@ export const projectItem = [
         liveSite: "/",
         github: "https://github.com/danielasakpa/Chat-App"
     },
+    {
+        imageUrl: require('./images/Exercies-App.png'),
+        id: "12882133rd189tutrefgerfgf12e12",
+        projectNum: "04 Project",
+        discription: `FitnessApp developed with ReactJS and Rapidapi and was designed using Material UI to look modern and responsive`,
+        liveSite: "/",
+        github: "https://github.com/danielasakpa/Exercies-App"
+    },
 ]
