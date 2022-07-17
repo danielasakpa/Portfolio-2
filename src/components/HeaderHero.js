@@ -57,6 +57,7 @@ function HeaderHero() {
               fontSize: "15px",
               maxWidth: { md: "300px", xs: "100%" },
               width: "100%",
+              boxShadow: 0,
               py: { md: 2, xs: 1 }
             }}
           >

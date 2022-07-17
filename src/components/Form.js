@@ -9,8 +9,6 @@ import {
   Backdrop
 } from "@mui/material";
 
-require("dotenv").config();
-
 const Form = ({ emailSent, setEmailSent }) => {
 
   const[name, setName] = useState("")
@@ -30,10 +28,10 @@ const Form = ({ emailSent, setEmailSent }) => {
       
     emailjs
       .sendForm(
-        process.env.SERVICE_ID,
+        "service_k9th3hd",
         "contact_form",
         form.current,
-        process.env.PUBLIC_KEY
+        "YxU9ucgaEXCDwBI0X"
       )
       .then(
         (result) => {
@@ -91,7 +89,7 @@ const Form = ({ emailSent, setEmailSent }) => {
       <Button
         type="submit"
         variant="contained"
-        sx={{ mt: 3, mb: 2, boxShadow: 0, border: "1px solid #9F9F9F", color: "#FFFFFF", background: "#4E4E4E" }}
+        sx={{ mt: 3, mb: 2, boxShadow: 0, color: "#FFFFFF", background: "#4E4E4E" }}
       >
         send
       </Button>

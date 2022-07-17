@@ -29,7 +29,7 @@ const RightArrow = () => {
 
 function HorizontalScrollbar({ items, test }) {
   return (
-    <Box mt={4} sx={{ display: { md: "block", xs: "none" } }}>
+    <Box mt={2} sx={{ display: { md: "block", xs: "none" } }}>
       <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
         {items.map((item) => (
           <Box itemId={item.id} title={item.id} key={item.id}>
