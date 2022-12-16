@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('./fonts/NeueHaasDisplayRoman.eot');
+    src: url('./fonts/NeueHaasDisplayRoman.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NeueHaasDisplayRoman.woff2') format('woff2'),
+         url('./fonts/NeueHaasDisplayRoman.woff') format('woff'),
+         url('./fonts/NeueHaasDisplayRoman.ttf')  format('truetype'),
+         url('./fonts/NeueHaasDisplayRoman.svg#Neue Haas Grotesk Display Pro') format('svg');
+}
+
+
+
+:root {
+  --font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  
+  --color-bg: #F5F5F5;
+  --color-footer : #031B34;
+  --color-nav: #FFFFFF;
+  --color-blog: #042c54;
+  --color-banner: #282828;
+  --color-text: #303030;
+  --color-other: #000000;
+  --color-placeholder: #9F9F9F;
+  --color-footerbtn: #4E4E4E;
+}
