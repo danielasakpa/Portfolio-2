@@ -30,7 +30,7 @@ const About = () => {
               fontsize: { sm: "150px", xs: "30px" },
               fontFamily: "Neue Haas Grotesk Display Pro",
               textAlign: "left",
-              pr: {md: 1, xs: 0}
+              pr: { md: 1, xs: 0 }
             }}
           >
             I am self-taught passionate FrontEnd React developer, currently
@@ -66,7 +66,7 @@ const About = () => {
               My Skills
             </Typography>
             <Grid container rowSpacing={2} columnSpacing={{ xs: 1, md: 2 }}>
-              <Grid item xs={6} sm={4}>
+              <Grid variant="Card" item xs={6} sm={4}>
                 <DiReact className="about-icon" />
               </Grid>
               <Grid item xs={6} sm={4}>

@@ -1,72 +1,104 @@
-import { Stack, Button, Typography } from "@mui/material";
+import { Stack, Button, Typography, createTheme, ThemeProvider } from "@mui/material";
 import HeroImage from "../assets/images/Typing.gif";
 import AnimatedText from "../components/AnimatedText";
 
 import Resume from "../assets/MyResume.pdf"
 
 function HeaderHero() {
+
+  const theme = createTheme({
+    components: {
+      MuiButton: {
+        variants: [
+          {
+            props: {
+              variant: "contained",
+            },
+            style: {
+              maxWidth: "max-content",
+              fontFamily: "Neue Haas Grotesk Display Pro",
+              padding: "15px 30px",
+              fontWeight: "400",
+              backgroundColor: "black",
+              border: "1px solid #000000",
+              boxShadow: "none",
+              "&:hover": {
+                backgroundColor: "#F5F5F5",
+                color: "#000000",
+                border: "1px solid #000000",
+                boxShadow: "none",
+              },
+            },
+          },
+        ],
+      }
+    },
+  });
+
   return (
-    <Stack
-      margin="0 auto"
-      display="flex"
-      justifyContent="flex-end"
-      sx={{
-        mt: { sm: 4, xs: 2 },
-        maxWidth: "1100px",
-        flexDirection: { md: "row", xs: "column" },
-        position: "relative"
-      }}
-    >
+    <ThemeProvider theme={theme}>
       <Stack
+        margin="0 auto"
+        display="flex"
+        justifyContent="flex-end"
         sx={{
-          position: "absolute",
-          maxWidth: "800px",
-          width: "100%",
-          top: { md: "50px", xs: "30px" },
-          left: { md: "15px", xs: 0 }
+          mt: { sm: 4, xs: 2 },
+          maxWidth: "1100px",
+          flexDirection: { md: "row", xs: "column" },
+          position: "relative"
         }}
       >
-        <Typography
-          className="header-text"
-          paragraph
+        <Stack
           sx={{
-            fontSize: { md: "60px", sm: "50px", xs: "25px" },
-            fontFamily: "Neue Haas Grotesk Display Pro",
-            color: "#282828",
-            fonteight: "bold",
-            lineHeight: { sm: "1.2", xs: "1.7" }
+            position: "absolute",
+            maxWidth: "800px",
+            width: "100%",
+            top: { md: "50px", xs: "30px" },
+            left: { md: "15px", xs: 0 }
           }}
         >
-          <AnimatedText role="header" texts={"I’m Daniel Asakpa, a Full Stack "} />
-          <AnimatedText role="header" texts={"developer & content creator "} />
-          <AnimatedText role="header" texts={"based in Lagos, Nigeria. "} />
-          <AnimatedText role="header" texts={"Available for freelance & "} />
-          <AnimatedText role="header" texts={"collaborations "} /> <br />
-        </Typography>
-        <a
-          href={Resume}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none" }}
-        >
-          <Button
-            variant="contained"
+          <Typography
+            className="header-text"
+            paragraph
             sx={{
-              background: "#4E4E4E",
-              color: "#FFFFFF",
-              fontSize: "15px",
-              maxWidth: { md: "300px", xs: "100%" },
-              width: "100%",
-              boxShadow: 0,
-              py: { md: 2, xs: 1 }
+              fontSize: { md: "60px", sm: "50px", xs: "25px" },
+              fontFamily: "Neue Haas Grotesk Display Pro",
+              color: "#282828",
+              fonteight: "bold",
+              lineHeight: { sm: "1.2", xs: "1.7" }
             }}
           >
-            Resume
-          </Button>
-        </a>
+            <AnimatedText role="header" texts={"I’m Daniel Asakpa, a Full Stack "} />
+            <AnimatedText role="header" texts={"developer & content creator "} />
+            <AnimatedText role="header" texts={"based in Lagos, Nigeria. "} />
+            <AnimatedText role="header" texts={"Available for freelance & "} />
+            <AnimatedText role="header" texts={"collaborations "} /> <br />
+          </Typography>
+          <a
+            href={Resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <Button
+              variant="contained"
+              sx={{
+                background: "#4E4E4E",
+                color: "#FFFFFF",
+                fontSize: "15px",
+                maxWidth: { md: "300px", xs: "100%" },
+                width: "100%",
+                boxShadow: 0,
+                py: { md: 2, xs: 1 }
+              }}
+            >
+              Resume
+            </Button>
+          </a>
+        </Stack>
+        <img className="heroImage" src={HeroImage} alt="HeroImage" />
       </Stack>
-      <img className="heroImage" src={HeroImage} alt="HeroImage" />
-    </Stack>
+    </ThemeProvider>
   );
 }
 
