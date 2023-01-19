@@ -1,6 +1,6 @@
 export const projectItem = [
     {
-        imageUrl: require('../assets/images/foodwebsite.png'),
+        imageUrl: require('../assets/images/FoodWebsite.png'),
         id: "1288213e21nhfd8912e12",
         projectNum: "Food Website",
         discription: `This project aims to provide a convenient platform for users to browse and order from a local restaurants.
@@ -46,7 +46,7 @@ export const projectItem = [
         techs: ["React", "MUI", "API"]
     },
     {
-        imageUrl: require('../assets/images/crypto.png'),
+        imageUrl: require('../assets/images/Crypto.png'),
         id: "1288233rd189tutfgerfgf12e12",
         projectNum: "Crypto Website",
         discription: `Crypto Website is a platform for users to learn about and keep track of their favourite cryptocurrencies. 

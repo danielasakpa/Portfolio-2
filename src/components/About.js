@@ -7,7 +7,16 @@ import {
   DiMongodb,
   DiBootstrap
 } from "react-icons/di";
-import { SiMaterialui, SiGithub, SiExpress } from "react-icons/si";
+import {
+  SiMaterialui,
+  SiGithub,
+  SiExpress,
+  SiNextdotjs,
+  SiCsharp,
+  SiDotnet,
+  SiTailwindcss,
+  SiMicrosoftsqlserver
+} from "react-icons/si";
 
 const About = () => {
   return (
@@ -25,11 +34,24 @@ const About = () => {
       <Grid container mt={5} spacing={3}>
         <Grid item xs={12} md={7}>
           <Typography
+            variant="h4"
+            sx={{
+              fontsize: { sm: "150px", xs: "30px" },
+              fontFamily: "Neue Haas Grotesk Display Pro",
+              textAlign: "left",
+              fontWeight: "400"
+            }}
+          >
+            {" "}
+            Hello 👋
+          </Typography>
+          <Typography
             variant="h5"
             sx={{
               fontsize: { sm: "150px", xs: "30px" },
               fontFamily: "Neue Haas Grotesk Display Pro",
               textAlign: "left",
+              mt: 4,
               pr: { md: 1, xs: 0 }
             }}
           >
@@ -66,32 +88,47 @@ const About = () => {
               My Skills
             </Typography>
             <Grid container rowSpacing={2} columnSpacing={{ xs: 1, md: 2 }}>
-              <Grid variant="Card" item xs={6} sm={4}>
+              <Grid variant="Card" item xs={4} sm={3}>
                 <DiReact className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
                 <DiNodejsSmall className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
                 <DiJsBadge className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
                 <DiCss3 className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
                 <DiMongodb className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
+                <SiTailwindcss className="about-icon" />
+              </Grid>
+              <Grid item xs={4} sm={3}>
                 <DiBootstrap className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
                 <SiMaterialui className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
                 <SiGithub className="about-icon" />
               </Grid>
-              <Grid item xs={6} sm={4}>
+              <Grid item xs={4} sm={3}>
                 <SiExpress className="about-icon" />
+              </Grid>
+              <Grid item xs={4} sm={3}>
+                <SiNextdotjs className="about-icon" />
+              </Grid>
+              <Grid item xs={4} sm={3}>
+                <SiCsharp className="about-icon" />
+              </Grid>
+              <Grid item xs={4} sm={3}>
+                <SiDotnet className="about-icon" />
+              </Grid>
+              <Grid item xs={4} sm={3}>
+                <SiMicrosoftsqlserver className="about-icon" />
               </Grid>
             </Grid>
           </Stack>

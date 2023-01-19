@@ -142,7 +142,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding-top: 30px;
+  padding: 20px 10px;
   transition: 0.3s all ease-in-out;
   cursor: pointer;
   margin-top: 10px;
@@ -323,7 +324,7 @@ article {
   .projectCard {
     margin-right: 0;
     max-width: 280px;
-    height: 250px;
+    height: 350px;
     width: 100%;
   }
 

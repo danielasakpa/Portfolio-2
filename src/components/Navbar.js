@@ -3,9 +3,15 @@ import { Stack } from "@mui/material";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import Logo from "../assets/images/logo.png";
 import { Link } from "react-scroll";
+import { motion as m } from "framer-motion"
+
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const menuVariants = {
+    open: { opacity: 1, scale: 1  },
+    closed: { opacity: 0, scale: 0 },
+  }
 
   return (
     <nav>
@@ -86,7 +92,12 @@ function Navbar() {
             />
           )}
           {toggleMenu && (
-            <div className="navbar-menu_container scale-up-center">
+            <m.div 
+            initial={{ scale: 0 }}
+            animate={toggleMenu ? "open" : "closed"}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            variants={menuVariants}
+            className="navbar-menu_container scale-up-center">
               <div className="navbar-menu_container-links">
                 <p>
                   <Link
@@ -137,7 +148,7 @@ function Navbar() {
                   </Link>
                 </p>
               </div>
-            </div>
+            </m.div>
           )}
         </Stack>
       </Stack>
