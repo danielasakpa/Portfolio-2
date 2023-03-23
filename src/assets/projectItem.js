@@ -1,14 +1,12 @@
 export const projectItem = [
     {
-        imageUrl: require('../assets/images/FoodWebsite.png'),
+        imageUrl: require('../assets/images/Pizza.png'),
         id: "1288213e21nhfd8912e12",
-        projectNum: "Food Website",
-        discription: `This project aims to provide a convenient platform for users to browse and order from a local restaurants.
-        The website will feature a sleek and user-friendly interface that allows users to easily browse menus, place orders, and track the status of their deliveries. Users will also have the option to save their favorite dishes and restaurants for quick and easy access in the future.
-        In addition to the user-facing features, the website will also have a back-end system for restaurant owners to manage their menus, orders, and delivery logistics. This will allow for seamless communication and coordination between the website and the restaurants.`,
-        liveSite: "https://foodapp-w2.netlify.app/#/",
-        github: "https://github.com/danielasakpa/Food-website",
-        techs: ["React", "Tailwind", "Node js", "Express js", "Restful API", "MySql"]
+        projectNum: "Pizza Website",
+        discription: `This project aims to provide a convenient platform for users to browse and order Pizza. The website features a sleek and user-friendly interface that allows users to easily browse menus, place orders, and track the status of their deliveries. In addition to the user-facing features, the website will also have a back-end system for restaurant owners to manage their menus, orders, and delivery logistics. This will allow for seamless communication and coordination between the website and the restaurants.`,
+        liveSite: "https://pizza-app3.netlify.app/",
+        github: "https://github.com/danielasakpa/pizza-app",
+        techs: ["Next js", "CSS", "Node js", "Express js", "MongoDB", "Web Socket"]
     },
     {
         imageUrl: require('../assets/images/portfolio.png'),
@@ -30,7 +28,7 @@ export const projectItem = [
         included the layout, design, and functionality. I also utilized Tailwind to style the website, as it allowed me to easily customize the look and feel of the site without having to write extensive CSS. To retrieve property data, I utilized 
         RapidAPI to connect to a real estate API that provided information on properties for sale or rent in various locations. This allowed users to search for properties by location, price range, and other criteria. Overall, building this personal 
         real estate website project was a great learning experience, as it allowed me to utilize and improve my skills in React, Tailwind, and API integration. It was also satisfying to create a functional and user-friendly platform for individuals to search for and view properties.`,
-        liveSite: "https://github.com/danielasakpa/Real-Estate",
+        liveSite: "https://real-estate3.netlify.app/",
         github: "https://github.com/danielasakpa/Real-Estate",
         techs: ["React", "Tailwind", "Rapid API"]
     },
