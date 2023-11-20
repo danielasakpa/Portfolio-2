@@ -1,24 +1,12 @@
 export const projectItem = [
     {
-        imageUrl: require('../assets/images/Pizza.png'),
+        imageUrl: require('../assets/images/Manga-App.png'),
         id: "1288213e21nhfd8912e12",
-        projectNum: "Pizza Website",
-        discription: `This project aims to provide a convenient platform for users to browse and order Pizza. The website features a sleek and user-friendly interface that allows users to easily browse menus, place orders, and track the status of their deliveries. In addition to the user-facing features, the website will also have a back-end system for restaurant owners to manage their menus, orders, and delivery logistics. This will allow for seamless communication and coordination between the website and the restaurants.`,
-        liveSite: "https://pizza-app3.netlify.app/",
-        github: "https://github.com/danielasakpa/pizza-app",
-        techs: ["Next js", "CSS", "Node js", "Express js", "MongoDB", "Web Socket"]
-    },
-    {
-        imageUrl: require('../assets/images/portfolio.png'),
-        id: "1288213e2189tudvfdvtrf12e12",
-        projectNum: "My personal portfolio",
-        discription: `My personal portfolio is a web application that showcases my skills and experience as a developer. It includes a homepage with a brief introduction and links to different sections of the portfolio, such as my projects, About, and contact information.
-        The projects section includes a list of my past and current projects, each with a brief description and links to view the project in more detail. The project details page includes information about the techsnologies used, a description of my role in the project, and links to view the project live or on GitHub.
-        The contact section includes a form for users to reach out to me with any questions or inquiries.
-        The overall goal of the portfolio is to provide a comprehensive and visually appealing showcase of my skills and experience as a developer. It is designed to be user-friendly and easy to navigate, with a clean and modern design.`,
-        liveSite: "https://danielasakpa.netlify.app/",
-        github: "https://github.com/danielasakpa/Portfolio-2",
-        techs: ["React", "Tailwind"]
+        projectNum: "Manga App",
+        discription: `Introducing YUKI MANGA – your ultimate destination for immersive manga exploration! This cutting-edge Manga App, developed with React, Tailwind CSS, MangaDex API, Node.js, Express.js, and MongoDB, offers a seamless and visually captivating experience for manga enthusiasts. Dive into a vast collection, customize your search, and enjoy an unparalleled reading journey. Experience YUKI MANGA now at Live Site and explore the inner workings on GitHub. Embark on a manga adventure like never before!`,
+        liveSite: "https://manga-website1.netlify.app/",
+        github: "https://github.com/danielasakpa/Manga_Website",
+        techs: ["React", "Tailwind CSS", "MangaDex Api", "Node JS", "Express js", "MongoDB"]
     },
     {
         imageUrl: require('../assets/images/realEstate.png'),
@@ -30,7 +18,37 @@ export const projectItem = [
         real estate website project was a great learning experience, as it allowed me to utilize and improve my skills in React, Tailwind, and API integration. It was also satisfying to create a functional and user-friendly platform for individuals to search for and view properties.`,
         liveSite: "https://real-estate3.netlify.app/",
         github: "https://github.com/danielasakpa/Real-Estate",
-        techs: ["React", "Tailwind", "Rapid API"]
+        techs: ["React", "Tailwind CSS", "Rapid API"]
+    },
+    {
+        imageUrl: require('../assets/images/portfolio.png'),
+        id: "1288213e2189tudvfdvtrf12e12",
+        projectNum: "My personal portfolio",
+        discription: `My personal portfolio is a web application that showcases my skills and experience as a developer. It includes a homepage with a brief introduction and links to different sections of the portfolio, such as my projects, About, and contact information.
+        The projects section includes a list of my past and current projects, each with a brief description and links to view the project in more detail. The project details page includes information about the techsnologies used, a description of my role in the project, and links to view the project live or on GitHub.
+        The contact section includes a form for users to reach out to me with any questions or inquiries.
+        The overall goal of the portfolio is to provide a comprehensive and visually appealing showcase of my skills and experience as a developer. It is designed to be user-friendly and easy to navigate, with a clean and modern design.`,
+        liveSite: "https://danielasakpa.netlify.app/",
+        github: "https://github.com/danielasakpa/Portfolio-2",
+        techs: ["React", "Tailwind CSS"]
+    },
+    {
+        imageUrl: require('../assets/images/Pizza.png'),
+        id: "1288213e21nhfd8912e12",
+        projectNum: "Pizza Website",
+        discription: `This project aims to provide a convenient platform for users to browse and order Pizza. The website features a sleek and user-friendly interface that allows users to easily browse menus, place orders, and track the status of their deliveries. In addition to the user-facing features, the website will also have a back-end system for restaurant owners to manage their menus, orders, and delivery logistics. This will allow for seamless communication and coordination between the website and the restaurants.`,
+        liveSite: "https://pizza-app3.netlify.app/",
+        github: "https://github.com/danielasakpa/pizza-app",
+        techs: ["Next js", "CSS", "Node js", "Express js", "MongoDB", "Web Socket"]
+    },
+    {
+        imageUrl: require('../assets/images/Jesus-Embassy.png'),
+        id: "1288213e21nhfd8912e12",
+        projectNum: "Food Website",
+        discription: `Introducing the Food Website – your go-to destination for a delightful culinary experience! This platform combines the convenience of online food ordering with a sleek and user-friendly interface. Browse through a variety of delectable options, place your order hassle-free, and track its journey to your doorstep. Powered by React JS, MUI, Framer Motion, Node.js, Express.js, and MongoDB, this project ensures a seamless and enjoyable dining adventure. Satisfy your cravings now at Live Site or explore the code on GitHub.`,
+        liveSite: "https://foodapp-w2.netlify.app/",
+        github: "https://github.com/danielasakpa/FoodApp-Client",
+        techs: ["React JS", "MUI", "Framer Motion", "Node js", "Express js", "MongoDB"]
     },
     {
         imageUrl: require('../assets/images/fitnessApp.png'),

@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.317de43a.css",
-    "main.js": "/static/js/main.09f9e82f.js",
-    "static/media/FoodWebsite.png": "/static/media/FoodWebsite.41b6c56c68f321d82ac4.png",
+    "main.js": "/static/js/main.c6f4a5a3.js",
     "static/media/Crypto.png": "/static/media/Crypto.f967557a97a26f4f4c2a.png",
     "static/media/fitnessApp.png": "/static/media/fitnessApp.82e0768896ca3c0c864b.png",
     "static/media/realEstate.png": "/static/media/realEstate.5282788ea221b8e35edc.png",
+    "static/media/Pizza.png": "/static/media/Pizza.b5158e685cd2ec7b932b.png",
     "static/media/Typing.gif": "/static/media/Typing.eba123509fc8dd70d79a.gif",
     "static/media/portfolio.png": "/static/media/portfolio.932f842152fe3ac4c929.png",
     "static/media/NeueHaasDisplayRoman.eot": "/static/media/NeueHaasDisplayRoman.913deccbdd9bb49b59e1.eot",
     "static/media/NeueHaasDisplayRoman.ttf": "/static/media/NeueHaasDisplayRoman.a4c6f6d97398d8f9a96c.ttf",
     "static/media/NeueHaasDisplayRoman.svg": "/static/media/NeueHaasDisplayRoman.33bdd18b771e1357673c.svg",
-    "static/media/MyResume.pdf": "/static/media/MyResume.8d431b66f24e959a46ab.pdf",
+    "static/media/MyResume.pdf": "/static/media/MyResume.985b6e34880350cd32b7.pdf",
     "static/media/NeueHaasDisplayRoman.woff": "/static/media/NeueHaasDisplayRoman.5aa77a3428fae7ef138c.woff",
     "static/media/NeueHaasDisplayRoman.woff2": "/static/media/NeueHaasDisplayRoman.47a0032b8b7cfccd4242.woff2",
     "index.html": "/index.html",
     "main.317de43a.css.map": "/static/css/main.317de43a.css.map",
-    "main.09f9e82f.js.map": "/static/js/main.09f9e82f.js.map"
+    "main.c6f4a5a3.js.map": "/static/js/main.c6f4a5a3.js.map"
   },
   "entrypoints": [
     "static/css/main.317de43a.css",
-    "static/js/main.09f9e82f.js"
+    "static/js/main.c6f4a5a3.js"
   ]
 }
