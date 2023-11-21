@@ -34,7 +34,7 @@ export const projectItem = [
     },
     {
         imageUrl: require('../assets/images/Pizza.png'),
-        id: "1288213e21nhfd8912e12",
+        id: "1288213hijo1nhfd8912e12",
         projectNum: "Pizza Website",
         discription: `This project aims to provide a convenient platform for users to browse and order Pizza. The website features a sleek and user-friendly interface that allows users to easily browse menus, place orders, and track the status of their deliveries. In addition to the user-facing features, the website will also have a back-end system for restaurant owners to manage their menus, orders, and delivery logistics. This will allow for seamless communication and coordination between the website and the restaurants.`,
         liveSite: "https://pizza-app3.netlify.app/",
@@ -43,7 +43,7 @@ export const projectItem = [
     },
     {
         imageUrl: require('../assets/images/Jesus-Embassy.png'),
-        id: "1288213e21nhfd8912e12",
+        id: "1288opjihg3e21nhfd8912e12",
         projectNum: "Food Website",
         discription: `Introducing the Food Website – your go-to destination for a delightful culinary experience! This platform combines the convenience of online food ordering with a sleek and user-friendly interface. Browse through a variety of delectable options, place your order hassle-free, and track its journey to your doorstep. Powered by React JS, MUI, Framer Motion, Node.js, Express.js, and MongoDB, this project ensures a seamless and enjoyable dining adventure. Satisfy your cravings now at Live Site or explore the code on GitHub.`,
         liveSite: "https://foodapp-w2.netlify.app/",
